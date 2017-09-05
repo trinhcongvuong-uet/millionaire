@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+>
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="56dp"
+                  android:orientation="horizontal"
+                  android:layout_alignParentTop="true"
+
+    >
+        <LinearLayout android:layout_width="0dp"
+                      android:layout_height="match_parent"
+                      android:layout_weight="1"
+                      android:gravity="center"
+        >
+            <Button android:layout_width="56dp"
+                       android:layout_height="match_parent"
+                       android:background="@drawable/logo_5050"
+                       android:id="@+id/btn_help_5050"
+            />
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="0dp"
+                      android:layout_height="match_parent"
+                      android:layout_weight="1"
+                      android:gravity="center"
+        >
+            <Button android:layout_width="56dp"
+                       android:layout_height="match_parent"
+                       android:background="@drawable/logo_khangia"
+                       android:id="@+id/btn_help_people"
+            />
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="0dp"
+                      android:layout_height="match_parent"
+                      android:layout_weight="1"
+                      android:gravity="center"
+        >
+            <Button android:layout_width="56dp"
+                       android:layout_height="match_parent"
+                       android:background="@drawable/logo_dungcuocchoi"
+                       android:id="@+id/btn_help_stop_game"
+            />
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="0dp"
+                      android:layout_height="match_parent"
+                      android:layout_weight="1"
+                      android:gravity="center"
+        >
+            <Button android:layout_width="56dp"
+                       android:layout_height="match_parent"
+                       android:background="@drawable/logo_goidienthoai"
+                       android:id="@+id/btn_help_phone"
+            />
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="0dp"
+                      android:layout_height="match_parent"
+                      android:layout_weight="1"
+                      android:gravity="center"
+        >
+            <Button android:layout_width="56dp"
+                       android:layout_height="match_parent"
+                       android:background="@drawable/logo_doicauhoi"
+                       android:id="@+id/btn_help_change_question"
+            />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
